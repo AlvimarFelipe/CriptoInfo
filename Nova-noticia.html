@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>CriptoInfo_Nova_Noticia</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/new_news.css">
+		<link rel="shortcut icon"  href="images/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+		<header id="cabeca">
+			<div class="img-logo">
+				<img class="logo_img" src="images/logo.png">
+				<h1>CriptoInfo</h1>
+			</div>
+			<div class="line1"></div>
+
+		</header>
+
+
+        <!-- Menu -->
+		<div id="sidebar">
+			<nav id="menu">
+				<header class="major">
+					<h1>Menu</h1>
+				</header>
+				<ul class="lista">
+					<a href="index.html" class="padding"><li class="f-item">Página inicial</li></a>
+					<a href="O-que-é.html"><li>O que é criptomoeda?</li></a>
+					<a href="Como-Investir.html"><li>Como investir?</li></a>
+					<a href="Ajuda.html"><li>Ajuda</li></a>
+					<a href="Nova-noticia.html"><li>Adicionar Notícia</li></a>
+				</ul>	
+			</nav>
+			<p class="icon"><i class="bi bi-list"></i></p>
+		</div>
+
+		<!-- Main -->
+		<div id="main">
+			<!-- Content -->
+			<section>
+				<header class="main">
+					<h1>Criar Nova Notícia</h1>
+				</header>
+
+
+				<form class="form" id="formulario">
+					<div class="inputs">
+						<div class="user-box">
+							<label for="titulo"><h4>Título da Notícia</h4>
+								<input class="tabela" id="titulo" type="text" name="titulo" placeholder="Título da notícia" required>
+							</label>
+						</div>
+
+						<div class="user-box">
+							<label for="imagem"><h4>Link de Imagem para a Notícia</h4>
+								<input class="tabela" id="imagem" type="textarea" name="imagem" placeholder="Link para a imagem da notícia
+                                " required> 
+								</input>
+							</label>
+						</div>  
+
+						<div class="user-box">
+							<label for="noticia"><h4>Texto da Notícia</h4>
+								<textarea class="tabela" id="noticia" type="text" name="noticia" required> 
+								</textarea>
+							</label>
+						</div> 
+
+					</div>
+
+				
+					<input onclick="return confirm('------Notícia adicionada com sucesso!-----');" id="enviar" type="submit" value="Adicionar Notícia" class="btn">
+					
+				</form>
+			</section>		
+					
+		</div>
+		<!-- Footer -->
+		<footer>
+			<p>Feito por Alvimar Felipe && GG</p>
+		</footer>
+		<!-- Scripts -->
+		<script src="assets/js/sidebar.js"></script>
+
+	</body>
+</html>

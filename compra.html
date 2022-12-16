@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CriptoInfo_Compra</title>
+  <link rel="stylesheet" href="assets/css/compra.css">
+  <link rel="shortcut icon"  href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+  
+</head>
+
+<body class="is-preload">
+
+
+    <!-- Header -->
+    <header id="cabeca">
+      <div class="img-logo">
+        <img class="logo_img" src="images/logo.png">
+        <h1>CriptoInfo</h1>
+      </div>
+      <div class="line1"></div>
+    </header>
+    <!-- Menu -->
+    <div id="sidebar">
+      <nav id="menu">
+        <header class="major">
+          <h1>Menu</h1>
+        </header>
+        <ul class="lista">
+          <a href="index.html" class="padding"><li class="f-item">Página inicial</li></a>
+          <a href="O-que-é.html"><li>O que é criptomoeda?</li></a>
+          <a href="Como-Investir.html"><li>Como investir?</li></a>
+          <a href="Ajuda.html"><li>Ajuda</li></a>
+          <a href="Nova-noticia.html"><li>Adicionar Notícia</li></a>
+        </ul>	
+      </nav>
+      <p class="icon"><i class="bi bi-list"></i></p>
+    </div>
+  <!-- Main -->
+  <div id="main">
+    <!-- Section -->
+    <section class="compra_venda">
+      <h1>Compre aqui a sua criptomoeda</h1>
+
+      <h3>Qual moeda você gostaria de comprar?</h3>
+
+      <div class="moeda_select">
+        
+        <select name="format" id="format" required class="select">
+      
+          <option value="bitcoin" id="BTC" class="options">Bitcoin (BTC)</option>
+          <option value="txt" id="ETH" class="options">Ethereum (ETHER)</option>
+        </select>
+        
+      </div>
+
+      <h3>Quanto você quer comprar?</h3>
+
+      <div class="compra_input">
+       
+        <input type="number" name="format" class="select" placeholder="Digite o valor desejado" required value="1">
+        
+      </div>
+
+      <h3>Selecione a forma de pagamento</h3>
+
+      <div class="formPag_select">
+       
+        <select name="format" id="format" required class="select">
+        
+          <option value="bitcoin" class="options">Pix</option>
+          <option value="txt" class="options">Cartão de Crédito</option>
+          <option value="txt" class="options">Cartão de Débito</option>
+          <option value="txt" class="options">Déposito</option>
+          <option value="txt" class="options">Boleto</option>
+        </select>
+        
+      </div>
+
+      <h3>Você vai pagar: </h3>
+
+      <div class="compra_input">
+          <div class="valor-box">
+            <p>R$ 100,00</p>
+          </div>
+      </div>
+
+      <button class="btn" onclick="return alert('Compra realizada!!');">Comprar</button>
+    </section>
+
+
+    <!-- Footer -->
+    
+  </div>
+  <footer>
+    <p>Feito por Alviamr Felipe</p>
+  </footer>
+  <script src="assets/js/filtro.js"></script>
+  <script src="assets/js/compra.js"></script>
+  <script src="assets/js/sidebar.js"></script>
+
+</body>
+
+
+</html>
